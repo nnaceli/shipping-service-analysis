@@ -1,0 +1,55 @@
+,,,,,
+,Clase,,Reto,,Solución
+,¿Qué es ciencia de datos y big data? ¿Cómo afectan a mi negocio?,,Piensa en 3 empresas que almacenan un gigantesco volumen de datos y están usando big data hoy en día.,,"1.  Uber
+2.  Amazon
+3.  Google"
+,¿Qué tipo de información podemos analizar?,,Piensa qué tipos de datos manejan las 3 empresas del reto anterior y para qué crees que los están utilizando.,,"1.  Machine 2 Machine
+2.  Transacciones
+3.  Navegación web"
+,¿Cómo crear empresas y culturas data-driven?,,"Piensa en 3 empresas que tengan una cultura de datos (data-driven), donde todas sus decisiones se toman con base en la información que generan.",,"1.  Apple
+2.  BBVA
+3.  Bytedance"
+,¿Qué es inteligencia artificial y machine learning?,,Piensa en 3 empresas (de 3 sectores/industrias diferentes) que están utilizando lenguaje automatizado.,,"1.  Appen (Australia)
+2.  Itento (USA) 
+3.  Green Terp (Singapur)"
+,¿Qué es deep learning?,,"Piensa en 3 empresas que producen tecnología de deep learning y para qué crees que la están utilizando (1 con imágenes, 1 con video y 1 con sonido).",,"1.  Spotyfy (sonido) : Para identificar las canciones que le gustan y le podrian gustar al usuario
+2.  GoodVision (video) :  Para indentificar los tipos de vehículos en las cámaras de transito
+3.  Google (imágenes) : Para identificar personas en google photos"
+,,,,,
+,"Flujo de trabajo en ciencia de datos: fases, roles y oportunidades laborales",,"¿Cuál es tu rol? Piensa en dónde te proyectas, qué área(s) de la ciencia de datos te llaman la atención, cuáles herramientas te llamaron la atención y qué propósito quieres cumplir como data scientist.",,Quiero ser data analyst a corto plazo y data scientist a largo plazo
+,Herramientas para cada etapa del análisis de datos,,Acaban de informarte que las ventas de tu empresa cayeron mucho hoy.  Debes extraer la información de los clientes que compraron ayer y los clientes que compraron hoy para entender por qué cayeron las ventas. ¿Qué herramienta debes usar para realizar la extracción de datos?,,Debo usar SQL
+,¿Qué es y cómo usar una base de datos relacional con SQL?,,"Vas a analizar las ventas registradas en tu base de datos, pero debes excluir del análisis cualquier registro donde la columna city sea Bogotá. ¿Cuál operador lógico necesitas para obtener la información con este ""filtro""?",,Necesito el operador lógico NOT para exlcuír
+,Cómo estructurar queries en SQL,,"En la pestaña VENTAS_2020 observa la información de la ""base de datos"", plantéate una pregunta y encuentra una solución por medio de queries en SQL.",,"- ¿Qué observaste?  Solo 1 venta fue realizada el primer día del mes
+- ¿Cuál fue tu pregunta?  Cuantas ventas se realizaron posterior al día 10 del més
+- ¿Cuál fue tu querie en SQL? SELECT COUNT (id) FROM VENTAS_2020 WHERE dia >= 15;
+- ¿Qué solución/respuesta encontraste?  3 ventas fueron realizadas en los días posteriores al número 10 de cada mes "
+,Conflictos y retos actuales sobre la ética y tratamiento de datos,,"Mira el documental The Social Dilema, piensa qué crees que es verdad o no y luego mira el siguiente análisis: https://www.youtube.com/watch?v=Frdna_cBwwU.
+¿Qué aprendiste? ¿Acertaste en algunos de tus puntos? ¿Qué fue lo que más te asustó o sorprendió?",,"- Aprendí que trabajar para la industria de la tecnología implica un responsabilidad ética sobre lo que nuestras acciones puede afectar a la sociedad a mediano y largo plazo
+- Acerté en que el uso de las redes sociales, acutualmente (Inicios de la segunda década del siglo XXI), puede afectar negativamente a adolescentes
+- Lo que más me sorprendió fue la facilidad con la que podemos llegar a no discernir con claridad que es verdad y que no"
+,,,,,
+,Aplica técnicas de storytelling para convertir problemas de datos en historias,,"Piensa en un problema de negocio en la empresa donde trabajas (o donde te gustaría trabajar) y aplica la estructura de storytelling:
+- ¿Cómo lo identificas?
+- ¿Qué solución podría tener?
+- ¿Cuál es su alcance?",,"- Identifico en MercadoLibre durante los últimos 6 meses hubo un aumento en las quejas por el servicio de envios. No los podemos identificar y no sabemos a que se debe
+- La solución puede ser crear un scrip que identifique y clasifique a las quejas
+- Su alcance es a nivel NACIONAL con distinción por provincias"
+,Cómo estructurar un caso de negocio,,"Valida la hipótesis que planteaste en el reto anterior, encuentra sus variables cuantitativas y cualitativas.",,"- Mi hipóteis fue: hubo un aumento en la cantidad de quejas por el servicio de envíos
+- Variables cuantitativas: distanciaEntreVendendorComprador (corto: 0 a 10km; media: 10 a 50km; larga: más de 50km);  frecuenciaDeComprador (regular: 2 o menos al mes;  bronce:  3 a 5; plata: 6 a 10 al mes; oro; más de 10); tipo de vendedor (común, mercadoLider; Gold; Platinum)
+- Variables cualitativas: "
+,Análisis cuantitativo en un caso de negocio,,"¿Cómo sería tu clasificación numérica para resolver el caso de negocio de los retos anteriores?
+- ¿Qué usuarios buscarías?
+- ¿Cuál sería tu hipótesis?
+
+Recuerda que no necesitas llegar a un número, solo definir tu estrategia e hipótesis numérica.",,"- Mi hipótesis: La compras de corta distancia reciben menos quejas respecto al servicio de envíos
+- Mi estrategia: Haría una correlación entre  la distancia de la compra-venta en función de la frecuencia del comprador, el tipo de vendedor y el porcentaje de quejas"
+,Análisis cualitativo en un caso de negocio,,Identifica y clasifica las variables categóricas del caso de negocio que has etado trabajando en los retos anteriores.,,- Variables categóricas en mi caso de negocio:  tiempo de envío; estado del producto;  servicio al cliente
+,Fusión cuanti-cualitativa en un caso de negocio,,Piensa cómo poner en conjunto la información cuantitativa y cualitativa en tu caso de negocio.,,- Para unir los datos cuantitativos y cualitativos en mi caso de negocio haría una correlación entre la distancia entre vendedor-comprador y los motivos de la queja
+,¿Qué es minería de texto? ¿Cómo usarla para obtener información adicional?,,Piensa en los mensajes que podría haber dentro de las categorías que creaste.  ¿Qué información adicional podrías encontrar analizando los textos relacionados a tu caso de negocio? ¿Cuáles serían los diferentes comportamientos?,,- El mejor uso que podría darle a la minería de texto en mi caso de negocio es identificar las palabras más frecuentes en las quejas de las publicaciones donde se mencione la palabra 'envío'
+,Variación de comportamientos a partir de la geolocalización,,"Plantea una hipótesis de cómo afecta la geolocalización al comportamiento de tus usuarios y define el campo geográfico que más se adecua a tu caso de estudio (ciudades, pueblos, distritos, paises...).",,- La geolocalización de mis usuarios afecta en la distancia en la cual se encuentran el vendednor y el comprador
+,"Acciones, algoritmos y toma de decisiones según los resultados del análisis",,Piensa qué acciones surgirían como resultado de tu análisis.,,"- Acciones: Sugeriría realizar una inspaección al área de envíos de la empresa, haciendo especial énfasis en el motivo que más hayan reclamado los usuarios de categoria  plata y oro con el análisis de minería de texto"
+,,,,,
+,Continúa aprendiendo ciencia y análisis de datos para ejecutar estrategias efectivas,,"¡Felicidades por terminar el Curso de Análisis de Negocios para Ciencia de Datos!
+¿Aprendiste algo nuevo? ¿Qué fue lo que más te gustó? ¿Cuál será tu siguiente paso para convertirte en data scientist?",,"- Lo que más me gustó del curso fue la diversidad de los temas vistos
+- Lo que más me sorprendió fue los temas vistos en el cápitulo de ética
+- Mi siguiente paso para convertirme en data scientist será seguir capacitandome, investigando y llevando lo aprendido a la práctica"
