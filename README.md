@@ -22,7 +22,7 @@ aprendidos en el curso de **Analisis de negocios para ciencias de datos** de la 
 URL: https://platzi.com/cursos/negocios-data-science/
 
 ## Descripción
-En la empresa Mercado Libre hace 6 meses se vienen reportando casos de quejas en el servicio de envíos. Ante esto propongo realizar un analisis correlacionando las siguientes variables y caregorías
+En la empresa Mercado Libre hace 6 meses se vienen reportando casos de quejas en el servicio de envíos. Ante esto propongo realizar un analisis correlacionando las siguientes variables y caretgorías
 
 - Distancia entre vendedor y comprador: 0 a 10 km (corto); 10 a 50 km (medio) más de 50 km (largo)
 - Frecuencia de comprador por mes: regular (2 o menos); bronce (entre 3 y 5); plata (6 a 10); oro (más de 10)
